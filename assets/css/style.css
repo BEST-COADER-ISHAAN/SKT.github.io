@@ -1551,3 +1551,86 @@ section {
 #footer .footer-links a:hover {
   color: #3498db;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-light{
+  font-size: 100%;
+}
+#menu-tile{
+  height: 70px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#menu-tiles:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+/*.wall_tiles {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.floor_tiles {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.parking_tiles {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.sanitary {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.venity {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.sink {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.cisterns {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.geysers {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+.acessories {
+  background: url('../IMAGES/CATEGORIES%20IMAGE/ACESSORIES.png') no-repeat;
+  background-position: center;
+}*/
+#menu-tile span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.product{
+  margin-top: 25px;
+}
+/*.secondary{
+  margin-top: 500px;
+  overflow: hidden;
+}*/
+section {
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  padding-top: 10px;
+  padding-bottom: 25px;
+  /*padding-left:  25px;*/
+  width: 100%;
+}
