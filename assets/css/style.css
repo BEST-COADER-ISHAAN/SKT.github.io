@@ -387,15 +387,18 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: 100vh;
   }
-  #hero .animated {
+  /*#hero .animated {
     -webkit-animation: none;
     animation: none;
-  }
+  }*/
   #hero .hero-img {
     text-align: center;
   }
   #hero .hero-img img {
     width: 50%;
+  }
+  #hero {
+    margin-top: 20px;
   }
 }
 
@@ -439,6 +442,9 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translateY(-10px);
   }
+}
+.hero-img{
+  margin-top: 39px;
 }
 
 /*--------------------------------------------------------------
